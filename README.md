@@ -51,3 +51,6 @@ Add an asterisk dialplan like:
     same  =      n,Set(XIVO_STASIS_ARG=sw1)
     same  =      n,Stasis(callcontrol,${XIVO_STASIS_ARG})
     same  =      n,Hangup()
+
+![screenshot](/img/screen.png?raw=true "Screen")
+
